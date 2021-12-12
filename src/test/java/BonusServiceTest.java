@@ -81,6 +81,7 @@ class BonusServiceTest {
         // производим проверку (сравниваем ожидаемый и фактический):
         assertEquals(expected, actual);
     }
+
     @org.junit.jupiter.api.Test
     void shouldCalculateForRegisteredAmount0() {
         BonusService service = new BonusService();
